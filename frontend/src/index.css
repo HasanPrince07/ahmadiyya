@@ -1,0 +1,421 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.font-family {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+#header .header-img{
+  width: 100%;
+}
+#header .header-heading{
+  font-size: 3vw;
+}
+#header .header-btn-img{
+  width: 100%;
+}
+#header li a{
+  font-size: 1.5vw;
+}
+
+
+
+#main {
+  position: relative;
+}
+#main img{
+  width: 100%;
+}
+#main .main-div {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 100%;
+}
+#main .main-text1{
+  font-size: 5vw;
+}
+#main .main-text2{
+  font-size: 2vw;
+}
+#main .main-text3{
+  font-size: 2vw;
+}
+
+
+
+#images .images-div1{
+  width: 100%;
+  object-fit: cover;
+}
+#images .images-div2{
+  width: 100%;
+  object-fit: cover;
+}
+#images .images-div3{
+  width: 100%;
+  object-fit: cover;
+}
+#images .images-div4{
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+#review .review-head{
+  font-size: 3vw;
+}
+#review .review-heading{
+  font-size: 2vw;
+}
+#review .review-text{
+  font-size: 1.5vw;
+  letter-spacing: 1px;
+}
+#review .review-div{
+  height: 235px;
+}
+#review .review-btn{
+  font-size: 1.5vw;
+}
+
+
+
+#event .event-head-text{
+  font-size: 3vw;
+}
+#event .event-div{
+  margin-top: -100px;
+}
+#event .event-img-div{
+  width: 100%;
+  background-size: cover;
+  height: 20vw;
+}
+#event .event-img-div-mob{
+  width: 100%;
+  background-size: cover;
+  height: 60vw;
+}
+#event .event-text{
+  font-size: 1.5vw;
+}
+#event .event-btn{
+  font-size: 1.3vw;
+}
+#event .event-footer-div{
+  margin-top: -0.8px;
+  margin-bottom: -1px;
+}
+#event .event-footer-btn{
+  font-size: 1.5vw;
+}
+
+
+
+#footer img{
+  width: 100%;
+}
+#footer .footer-img-heading{
+  font-size: 2vw;
+}
+#footer .footer-heading{
+  font-size: 2vw;
+}
+#footer .footer-text{
+  font-size: 1.5vw;
+}
+#footer .owner-name{
+  font-size: 1.2vw;
+}
+
+
+
+#about-page .about-heading{
+  font-size: 3vw;
+}
+#about-page .about-text{
+  font-size: 1.5vw;
+}
+#about-page .about-principal-img{
+  width: 100%;
+}
+#about-page .about-principal-heading{
+  font-size: 2vw;
+}
+#about-page .about-principal-text{
+  font-size: 1.5vw;
+}
+#about-page .about-teacher-heading{
+  font-size: 1.8vw;
+}
+#about-page .about-teacher-subdetail{
+  font-size: 1.5vw;
+}
+#about-page .about-teacher-detail{
+  font-size: 1.3vw;
+}
+
+
+
+#event-page .event-heading{
+  font-size: 3vw;
+}
+#event-page img{
+  width: 100%;
+}
+#event-page .event-name{
+  font-size: 1.8vw;
+}
+#event-page .event-detail{
+  font-size: 1.3vw;
+}
+#event-page .event-date{
+  font-size: 1.3vw;
+}
+#event-page .event-btn{
+  font-size: 1.3vw;
+}
+#event-page .events-heading{
+  font-size: 2vw;
+}
+#event-page .events-name{
+  font-size: 1.5vw;
+}
+#event-page .events-btn{
+  font-size: 1vw;
+}
+
+
+
+#result-page .result-heading{
+  font-size: 3vw;
+}
+#result-page img{
+  width: 100%;
+}
+#result-page .result-name{
+  font-size: 1.5vw;
+}
+#result-page .result-class{
+  font-size: 1.3vw;
+}
+#result-page .result-text{
+  font-size: 1.3vw;
+}
+
+
+
+#review-page .review-heading{
+  font-size: 3vw;
+}
+#review-page .student-name{
+  font-size: 1.7vw;
+}
+#review-page .student-text{
+  font-size: 1.5vw;
+  min-height: 200px;
+}
+
+
+
+
+#facility-page .facility-head{
+  font-size: 3vw;
+}
+#facility-page .facility-div{
+  height: 300px;
+  background-size: cover;
+}
+#facility-page .facility-text{
+  font-size: 1.7vw;
+}
+
+
+
+
+#history-page .history-head{
+  font-size: 3vw;
+}
+#history-page .history-text{
+  font-size: 1.5vw;
+}
+
+
+
+#contact-page .contact-head{
+  font-size: 3vw;
+}
+#contact-page img{
+  width: 100%;
+}
+#contact-page .contact-heading{
+  font-size: 1.5vw;
+}
+#contact-page .contact-text{
+  font-size: 1.5vw;
+}
+#contact-page .contact-map{
+  width: 100%;
+  height: 500px;
+}
+#contact-page .query-heading{
+  font-size: 3vw;
+}
+#contact-page .query-label{
+  font-size: 1.5vw;
+}
+#contact-page .query-btn{
+  font-size: 1.3vw;
+}
+
+
+
+#addreview-page .review-header-btn{
+  font-size: 1.2vw;
+}
+#addreview-page .review-heading{
+  font-size: 3vw;
+}
+#addreview-page .review-label{
+  font-size: 1.5vw;
+}
+#addreview-page .review-btn{
+  font-size: 1.3vw;
+}
+
+
+
+#facility-page .facility-header-btn{
+  font-size: 1.2vw;
+}
+#facility-page img{
+  width: 100%;
+}
+#facility-page .facility-name{
+  font-size: 3vw;
+}
+#facility-page .facility-detail{
+  font-size: 1.5vw;
+}
+
+
+
+#admin-header .header-div{
+  height: 10vh;
+}
+#admin-header .header-text{
+  font-size: 1.5vw;
+}
+#admin-header .header-btn{
+  font-size: 1.3vw;
+}
+
+
+
+#dashboard .sidebar-div{
+  height: 90vh;
+}
+#dashboard .sidebar-btn{
+  font-size: 1.2vw;
+}
+#dashboard .dashboard-heading{
+  font-size: 3vw;
+}
+
+
+
+#model{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 100vh;
+}
+#model img{
+  width: 100%;
+}
+#model .model-heading{
+  font-size: 2vw;
+}
+#model .model-label{
+  font-size: 1.5vw;
+}
+#model .model-sub-label{
+  font-size: 1vw;
+}
+#model .model-sub-mob-label{
+  font-size: 4vw;
+}
+
+
+
+#management-page .sidebar-div{
+  height: 90vh;
+}
+#management-page .sidebar-btn{
+  font-size: 1.2vw;
+}
+#management-page .heading{
+  font-size: 2vw;
+}
+#management-page .heading-btn{
+  font-size: 1.3vw;
+}
+#management-page table td{
+  min-width: 150px;
+}
+#management-page img{
+  width: 100%;
+}
+
+
+
+#login{
+  height: 100vh;
+}
+#login .login-heading{
+  font-size: 3vw;
+}
+#login .login-label{
+  font-size: 1.5vw;
+}
+#login .login-btn{
+  font-size: 1.3vw;
+}
+
+
+
+#error-page{
+  height: 100vh;
+}
+#error-page img{
+  width: 100%;
+}
+#error-page .error-text{
+  font-size: 3vw;
+}
+#error-page .error-link-text{
+  font-size: 2.5vw;
+}
+
+/* hsbu qqbn mebd artr */
